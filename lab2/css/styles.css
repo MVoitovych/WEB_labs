@@ -1,0 +1,10 @@
+@import "./reset.min.css";
+@import "./normalize.min.css";
+@import "./global.css";
+@import "./header__burger.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./first__level.css";
+@import "./second_level.css";
+@import "./last__level.css";
+@import "./footer.css";
