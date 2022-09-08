@@ -1,0 +1,154 @@
+.hero {
+    background: url(D:/Programming/labs/Web/lab1/images/header.png) center top no-repeat;
+    background-color: #222F33;
+    width: 100%;
+}
+
+.hero__inner {
+    padding-bottom: 12.625rem;
+    padding-top: 5.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__h2 {
+    color: #FFFFFF;
+    line-height: 2.375rem;
+    animation: hero__animation 1.5s;
+}
+
+.hero__label {
+    color: #FFFFFF;
+    font-weight: 500;
+    opacity: 0.8;
+    animation: hero__animation 1.5s;
+}
+
+.hero__text {
+    max-width: 27.5rem;
+    margin-right: 6.25rem;
+}
+
+.hero__button {
+    margin-right: 5rem;
+    margin-top: 3.125rem;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero__button:hover {
+    background: none;
+    color: #222F33;
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+    .hero {
+        background-color: #222F33;
+        
+
+    }
+
+    .hero__inner {
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+        display: block;
+        align-items: center;
+    }
+
+    .hero__text {
+        max-width: none;
+        margin: 0 auto;
+
+    }
+
+    .hero__label {
+        padding-top: 20rem;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero__h2 {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .hero__button {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        font-size: 1.75rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .hero {
+        background: none;
+        background-color: #222F33;
+
+    }
+
+    .hero__inner {
+        padding-bottom: 3rem;
+        display: block;
+        align-items: center;
+
+    }
+
+    .hero__text {
+        max-width: auto;
+        margin: 0 auto;
+
+    }
+
+    .hero__label {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero__h2 {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .hero__button {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        font-size: 1.75rem;
+
+    }
+
+
+}
+
+@keyframes hero__animation {
+    from {
+        color: #222F33;
+        padding-left: 5rem;
+    }
+
+    to {
+        color: white;
+        padding-left: 0rem;
+    }
+
+}
