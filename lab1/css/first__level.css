@@ -1,0 +1,29 @@
+.first__level__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__level__h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    color: #222F33;
+}
+
+.first__level__p {
+    width: 400px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #646D70;
+}
+
+.first__level__read__more {
+    border: 1px solid #646D70;
+    margin-top: 41px;
+}

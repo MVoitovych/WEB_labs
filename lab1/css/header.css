@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    padding-top: 37px;
+}
+
+.navigation_div {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav {
+    display: flex;
+}
+
+
+.header__nav-item {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Rubik';
+    color: #FFFFFF;
+}
+
+.header__button {
+    border: none;
+}

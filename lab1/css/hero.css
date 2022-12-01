@@ -1,0 +1,45 @@
+.hero {
+    background: url(D:/Programming/labs/Web/lab1/images/header.png) center top no-repeat;
+    background-color: #222F33;
+}
+
+.hero__inner {
+    padding-bottom: 202px;
+    padding-top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__h2 {
+    color: #FFFFFF;
+    line-height: 38px;
+    width: 440px;
+}
+
+.hero__label {
+    color: #FFFFFF;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.hero__text {
+    width: 440px;
+    height: 152px;
+    margin-right: 100px;
+}
+
+.hero__button {
+    margin-right: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 0;
+    padding-right: 0;
+}

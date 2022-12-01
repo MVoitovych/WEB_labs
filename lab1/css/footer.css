@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222F33;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.footer__nav ul {
+    display: flex;
+}
+
+.footer__nav__item {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Rubik';
+    color: #FFFFFF;
+}
+
+.footer__mail {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-left: 50px;
+}

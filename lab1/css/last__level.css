@@ -1,0 +1,40 @@
+.last__level__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 525px;
+}
+
+.last__level__list {
+    flex-direction: column;
+}
+
+.last__level__lists {
+    display: flex;
+}
+
+.last__level__h3 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #222F33;
+}
+
+.last__level__p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    height: 66px;
+    width: 155px;
+    padding-bottom: 37px;
+    padding-right: 15px;
+    color: #646D70;
+    opacity: 0.7;
+}
+
+.last__level__image {
+    margin-left: 100px;
+    margin-right: 75px;
+}
